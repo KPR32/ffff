@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    tools:context=".MainActivity2">
+
+    <TableRow>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="22dp"
+            android:text="Настройки"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-39dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/a" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="22dp"
+            android:text="Профиль пользователя                    >"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold"/>
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="22dp"
+            android:text="Дата и время                                        >"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold"/>
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="22dp"
+            android:text="Настройки звука                                 >"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold"/>
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="22dp"
+            android:text="Проверить обновления                     >"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold"/>
+
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/b"
+            />
+
+    </TableRow>
+
+</TableLayout>
